@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Preguntas Frecuentes - Descubre Valdivia</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+
+    <style>
+
+body{
+    margin: 0;
+    background-color: #49a3f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    background-color: #49a3f7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.titulo{
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.titulo h1{
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.titulo p{
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+/* Contenedor blanco para centrar el acordeón y darle un mejor contraste */
+.faq-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card{
+    margin-bottom: 25px;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-text{
+    font-size: 16px;
+}
+
+.pie{
+    background-color: #aae7fa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Descubre Valdivia</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Menú</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lugares Turísticos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gastronomía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="titulo">
+    <h1>Preguntas Frecuentes</h1>
+    <p>Resuelve todas tus dudas antes de explorar la perla del sur. Encuentra información sobre la mejor época para viajar, transporte hacia los fuertes históricos, actividades en el río y recomendaciones para el clima.</p>
+</div>
+
+<main class="container my-4">
+  <div class="faq-container">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            ¿Cuál es la mejor época del año para visitar Valdivia?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Los meses de verano (diciembre a marzo) ofrecen un clima más cálido y seco para disfrutar del río y la costa. Sin embargo, si buscas la experiencia verde y lluviosa típica del sur, la primavera y el otoño también son excelentes opciones.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            ¿Cómo se llega a las fortalezas y castillos españoles (Niebla y Corral)?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Puedes tomar una micro (autobús local) o vehículo hacia Niebla (a 20 minutos). Para ir a Corral o Mancera, puedes tomar un transbordador marítimo o lanchas turísticas desde el embarcadero de Niebla o el puerto fluvial del centro.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            ¿Qué actividades se pueden hacer en el río Calle-Calle?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Puedes realizar paseos en embarcaciones turísticas, arrendar kayaks o tablas de stand-up paddle, tomar el transporte público fluvial (taxis solares) o simplemente caminar por la avenida Costanera.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            ¿Dónde se pueden ver los lobos marinos?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            El lugar más popular es la Costanera, justo al lado del Mercado Fluvial. Allí suelen descansar en los descansillos del río y cerca de los puestos de venta de pescado.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            ¿Es necesario llevar ropa de lluvia aunque sea verano?
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Sí. El clima en la Región de Los Ríos es impredecible. Aunque sea verano, se recomienda llevar siempre un cortaviento o chaqueta impermeable liviana y calzado adecuado.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<div class="pie">
+    <p><strong>Descubre Valdivia</strong></p>
+    <p>Programación 4to E</p>
+    <p>Instituto Comercial de Valdivia</p>
+    <p>Williams Aguilera & Francisca Rodriguez</p>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+crossorigin="anonymous"></script>
+
+</body>
+
+</html>

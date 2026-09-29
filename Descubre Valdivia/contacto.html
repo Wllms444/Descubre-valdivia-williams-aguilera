@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - Descubre Valdivia</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+
+    <style>
+
+        body{
+        margin: 0;
+        background-color: #49a3f7;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .menu{
+        background-color: #49a3f7;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .titulo {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .titulo h1 {
+            color: #49a3f7;
+            font-size: 40px;
+        }
+
+        .formulario {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px gray;
+        }
+
+        .formulario h2 {
+            color: #2e618b;
+            margin-bottom: 25px;
+        }
+
+        .pie {
+            background-color: #aae7fa;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lugares Turisticos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gastronomía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="titulo">
+
+    <h1>Contacto</h1>
+
+    <p>Completa el siguiente formulario para contactarnos</p>
+
+</div>
+
+
+<div class="container">
+
+    <div class="formulario">
+
+        <form>
+
+            <h2>Datos Personales / Identificación</h2>
+
+            <div class="row">
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">Nombre completo</label>
+
+                    <input type="text" class="form-control" required>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">Apellidos</label>
+
+                    <input type="text" class="form-control" required>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">RUT / Identificación</label>
+
+                    <input type="text" class="form-control" placeholder="Ej: 12.345.678-9" required>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">Correo Electrónico</label>
+
+                    <input type="email" class="form-control" required>
+
+                    <div class="form-text">
+                        Tu correo no será compartido.
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">Teléfono de Contacto</label>
+
+                    <div class="input-group">
+
+                        <span class="input-group-text">+56 9</span>
+
+                        <input type="tel" class="form-control" placeholder="12345678">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h2 class="mt-4">Información de Perfil y Preferencias</h2>
+
+
+            <div class="row">
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">Región / Ciudad de Residencia</label>
+
+                    <select class="form-select" required>
+
+                        <option disabled selected>Selecciona una opción</option>
+
+                        <option>Los Ríos - Valdivia</option>
+                        <option>Los Lagos - Puerto Montt</option>
+                        <option>La Araucanía - Temuco</option>
+                        <option>Biobío - Concepción</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">Fecha de Nacimiento o de Atención</label>
+
+                    <input type="date" class="form-control">
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">Tipo de Consulta</label>
+
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="radio" name="consulta" required>
+
+                        <label class="form-check-label">
+                            Información turística
+                        </label>
+
+                    </div>
+
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="radio" name="consulta">
+
+                        <label class="form-check-label">
+                            Gastronomía
+                        </label>
+
+                    </div>
+
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="radio" name="consulta">
+
+                        <label class="form-check-label">
+                            Lugares turísticos
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">Nivel de Interés</label>
+
+                    <input type="range" class="form-range">
+
+                    <div class="d-flex justify-content-between">
+
+                        <span>Bajo</span>
+                        <span>Alto</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h2 class="mt-4">Carga de Archivos y Mensaje</h2>
+
+
+            <div class="row">
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <label class="form-label">Adjuntar Documento o Fotografía</label>
+
+                    <input type="file" class="form-control" accept=".pdf,.jpg,.jpeg,.png">
+
+                </div>
+
+
+                <div class="col-12 col-md-8 mb-3">
+
+                    <label class="form-label">Detalle o Comentarios Adicionales</label>
+
+                    <textarea class="form-control" rows="4"></textarea>
+
+                </div>
+
+            </div>
+
+
+            <h2 class="mt-4">Consentimiento y Acciones</h2>
+
+
+            <div class="row">
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="checkbox" required>
+
+                        <label class="form-check-label">
+
+                            Acepto los <a href="#">Términos y Condiciones</a>
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <div class="form-check form-switch">
+
+                        <input class="form-check-input" type="checkbox">
+
+                        <label class="form-check-label">
+
+                            Suscribirme al boletín
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-3">
+
+                    <div class="d-flex justify-content-end gap-2">
+
+                        <button type="reset" class="btn btn-outline-secondary">
+
+                            Limpiar
+
+                        </button>
+
+                        <button type="submit" class="btn btn-success">
+
+                            Enviar
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<div class="pie">
+
+    <p>Descubre Valdivia</p>
+
+    <p>Programación 4to E</p>
+
+    <p>Instituto Comercial de Valdivia</p>
+
+    <p>Williams Aguilera & Francisca Rodriguez</p>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

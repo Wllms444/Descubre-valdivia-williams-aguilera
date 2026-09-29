@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Descubre Valdivia</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+crossorigin="anonymous">
+
+    <style>
+
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #49a3f7;
+}
+
+.menu{
+    background-color: #2E8B57;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.portada{
+    height: 450px;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.portada img{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.portada h1{
+    font-size: 60px;
+    position: relative;
+    margin: 0;
+}
+
+.portada p{
+    font-size: 25px;
+    position: relative;
+}
+
+.boton{
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.contenido{
+    margin-top: 40px;
+}
+
+.caja{
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px gray;
+    text-align: center;
+}
+
+.caja h2{
+    font-size: 22px;
+}
+
+.caja p{
+    font-size: 16px;
+}
+
+.caja a{
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.pie{
+    background-color: #aae7fa;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#carouselExampleIndicators {
+  max-width: 800px; /* Ancho máximo deseado */
+  margin: 0 auto;   /* Para centrar el carrusel */
+  
+}
+
+#carouselExampleIndicators .carousel-item img {
+  height: 500px;         /* Altura fija */
+  object-fit: cover;    /* Mantiene la proporción recortando los bordes */
+}
+
+    </style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Barra de Navegacion</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lugares Turisticos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gastronomía</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="preguntasfrecuentes.html">Preguntas Frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="portada">
+
+    <img src="Valdivia.jpg" alt="Imagen de Valdivia">
+    <h1>Descubre Valdivia</h1>
+    <p>Conoce los mejores lugares de la ciudad</p>
+    <a href="#" class="boton">Explorar</a>
+
+</div>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="artesaniaregiondelosrios.jpg" class="d-block w-100" alt="...":>
+    </div>
+    <div class="carousel-item">
+      <img src="gastronomiavaldivia.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="fortificaciones.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--
+<div class="contenido">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-6 col-lg-3">
+    <div class="caja">
+
+    <h2>Lugares Turísticos</h2>
+    <p>Parques, museos, ríos y mucho más.</p>
+    <br>
+
+    <a href="#">Ver más</a>
+
+</div>
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-3">
+    <div class="caja">
+    <h2>Gastronomía</h2>
+    <p>Comidas típicas y restaurantes</p>
+    <br>
+
+    <a href="#">Ver más</a>
+    </div>
+
+</div>
+
+
+<div class="col-12 col-md-6 col-lg-3">
+
+    <div class="caja">
+    <h2>Galería</h2>
+    <p>Imágenes de Valdivia</p>
+
+    <br>
+    <a href="galeria.html">Ver más</a>
+
+    </div>
+
+</div>
+
+
+<div class="col-12 col-md-6 col-lg-3">
+
+    <div class="caja">
+    <h2>Contacto</h2>
+    <p>Escríbenos para más información</p>
+    <br>
+
+    <a href="#">Ver más</a>
+    </div>
+    </div>
+    </div>
+    </div>
+
+</div>
+-->
+
+    <div class="pie">
+
+        <p>Descubre Valdivia</p>
+        <p>Programación 4to E</p>
+        <p>Instituto Comercial de Valdivia</p>
+        <p>Williams Aguilera & Francisca Rodriguez</p>
+
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+crossorigin="anonymous"></script>
+</body>
+
+</html>
